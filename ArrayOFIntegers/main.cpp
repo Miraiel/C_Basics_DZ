@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 int main(const int& Argc, const char* Argv[])
 {
@@ -11,7 +11,7 @@ int main(const int& Argc, const char* Argv[])
 	int* itrAr = begAr;
 	int* tmpValAr = new int(0);
 
-	cout << "Задан\t1 2 3 4 5 6 7 8 9 10" << endl;
+	cout << "Р—Р°РґР°РЅ\t1 2 3 4 5 6 7 8 9 10" << endl;
 
 	while (itrAr < endAr)
 	{
@@ -21,7 +21,7 @@ int main(const int& Argc, const char* Argv[])
 		itrAr += 2;
 	}
 
-	cout << "Получен\t";
+	cout << "РџРѕР»СѓС‡РµРЅ\t";
 
 	for (int i = 0; i < Nelem; ++i)cout << Arr[i] << " ";
 
